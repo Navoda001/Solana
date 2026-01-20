@@ -2,8 +2,7 @@ import React from "react";
 
 const Card2 = ({ rating, title, testimonial, name, location, avatarUrl }) => {
   return (
-    <div className="bg-gradient-to-br from-[rgba(10,2,26,1)] to-[rgba(23,12,46,1)] text-white rounded-xl p-6 border border-[rgba(32,16,64,1)]">
-
+    <div className="bg-gradient-to-br from-[rgba(10,2,26,1)] to-[rgba(23,12,46,1)] text-white rounded-2xl p-8 max-w-xl border border-[rgba(32,16,64,1)]">
       <div className="flex gap-2 mb-4">
         {[...Array(rating)].map((_, i) => (
           <div
