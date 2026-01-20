@@ -7,7 +7,7 @@ const Page1 = () => {
     <div className="bg-[rgba(0,0,0,0.28)] min-h-screen">
       <Hero />
 
-      <div className="container mx-auto px-8 py-16">
+      <div className="container mx-auto px-20 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-18 items-start">
           {/* Left Section - Title */}
           <div className="flex items-center lg:sticky lg:top-24">
