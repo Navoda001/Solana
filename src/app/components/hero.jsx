@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative bg-[#0a0b1e] text-white mx-auto" style={{ fontFamily: 'Helvetica, Arial, sans-serif', maxWidth: '1718px', height: '664px', marginTop: '87px' }}>
+    <section className="relative bg-[#000000] text-white mx-auto" style={{ fontFamily: 'Helvetica, Arial, sans-serif', maxWidth: '1718px', height: '664px', marginTop: '87px' }}>
       {/* Top accent line */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-500"></div>
       
