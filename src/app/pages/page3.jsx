@@ -5,8 +5,7 @@ import Hero from "./components/hero";
 import Card2 from "./components/card2";
 import SubContainer from "./components/subcontainer";
 
-const Page2 = () => {
-  const [currentPage, setCurrentPage] = useState(0);
+const Page3 = () => {
 
   const testimonials = [
     {
@@ -108,4 +107,4 @@ const Page2 = () => {
   );
 };
 
-export default Page2;
+export default Page3;
